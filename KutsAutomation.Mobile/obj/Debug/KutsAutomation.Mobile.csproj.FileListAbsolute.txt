@@ -1,0 +1,5 @@
+c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Mobile\bin\Debug\KutsAutomation.Mobile.dll
+c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Mobile\bin\Debug\KutsAutomation.Mobile.pdb
+c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Mobile\obj\Debug\KutsAutomation.Mobile.dll
+c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Mobile\obj\Debug\KutsAutomation.Mobile.pdb
+C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Mobile\obj\Debug\KutsAutomation.Mobile.csprojResolveAssemblyReference.cache

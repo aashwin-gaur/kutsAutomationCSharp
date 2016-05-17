@@ -1,0 +1,5 @@
+c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Rest\bin\Debug\KutsAutomation.Rest.dll
+c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Rest\bin\Debug\KutsAutomation.Rest.pdb
+c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Rest\obj\Debug\KutsAutomation.Rest.dll
+c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Rest\obj\Debug\KutsAutomation.Rest.pdb
+C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Rest\obj\Debug\KutsAutomation.Rest.csprojResolveAssemblyReference.cache
