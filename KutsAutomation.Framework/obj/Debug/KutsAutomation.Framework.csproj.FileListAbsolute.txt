@@ -1,0 +1,5 @@
+C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\KutsAutomation.Framework.dll
+C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\KutsAutomation.Framework.pdb
+C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.dll
+C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.pdb
