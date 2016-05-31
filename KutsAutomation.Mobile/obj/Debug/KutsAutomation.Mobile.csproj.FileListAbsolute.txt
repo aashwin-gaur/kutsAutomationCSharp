@@ -8,3 +8,6 @@ C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Mobile\bin\Debug
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Mobile\bin\Debug\KutsAutomation.Mobile.pdb
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Mobile\obj\Debug\KutsAutomation.Mobile.dll
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Mobile\obj\Debug\KutsAutomation.Mobile.pdb
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Mobile\bin\Debug\nunit.framework.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Mobile\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Mobile\bin\Debug\nunit.framework.xml

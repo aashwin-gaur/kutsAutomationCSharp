@@ -8,3 +8,6 @@ C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Rest\bin\Debug\K
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Rest\bin\Debug\KutsAutomation.Rest.pdb
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Rest\obj\Debug\KutsAutomation.Rest.dll
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Rest\obj\Debug\KutsAutomation.Rest.pdb
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Rest\bin\Debug\nunit.framework.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Rest\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Rest\bin\Debug\nunit.framework.xml
