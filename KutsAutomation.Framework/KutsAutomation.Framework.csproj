@@ -65,6 +65,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Driver\GlobalWebDriver.cs" />
+    <Compile Include="Pages\AdminLoginPage.cs" />
+    <Compile Include="Pages\Pages.cs" />
     <Compile Include="Steps\AsASiteAdminSteps.cs" />
     <Compile Include="Features\AdminLogin.feature.cs">
       <AutoGen>True</AutoGen>
@@ -80,9 +83,7 @@
     <Folder Include="DataDriven\Csv\" />
     <Folder Include="DataDriven\Excel\" />
     <Folder Include="DataDriven\Xml\" />
-    <Folder Include="Driver\" />
     <Folder Include="Logging\" />
-    <Folder Include="Pages\" />
     <Folder Include="Reporting\" />
     <Folder Include="ThirdParty\" />
   </ItemGroup>
