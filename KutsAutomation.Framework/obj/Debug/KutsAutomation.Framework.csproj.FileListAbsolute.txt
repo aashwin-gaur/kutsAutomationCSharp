@@ -3,3 +3,10 @@ C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\Kuts
 C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.csprojResolveAssemblyReference.cache
 C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.dll
 C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.pdb
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\KutsAutomation.Framework.dll.config
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\KutsAutomation.Framework.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\KutsAutomation.Framework.pdb
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\nunit.framework.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\nunit.framework.xml
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.pdb
