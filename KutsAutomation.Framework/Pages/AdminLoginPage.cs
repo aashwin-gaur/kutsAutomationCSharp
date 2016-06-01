@@ -47,7 +47,14 @@ namespace KutsAutomation.Framework.Pages
             GlobalWebDriver.driver.Navigate().GoToUrl(url);
             return this;
         }
-
+      public AdminLoginPage(String email,String password)
+        {
+            this.email.Clear();
+            this.email.SendKeys(email);
+            this.Password.Clear();
+            this.Password.SendKeys(password);
+            loginbutton.Click();
+        }
 
     }
 }
