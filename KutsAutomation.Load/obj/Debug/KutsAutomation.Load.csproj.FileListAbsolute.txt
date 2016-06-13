@@ -17,6 +17,5 @@ C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debu
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\nunit.framework.dll
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\TechTalk.SpecFlow.dll
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\nunit.framework.xml
-C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.csprojResolveAssemblyReference.cache
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.dll
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.pdb
