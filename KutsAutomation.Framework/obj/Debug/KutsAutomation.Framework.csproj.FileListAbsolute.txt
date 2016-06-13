@@ -21,3 +21,5 @@ C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\bin\De
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\WebDriver.xml
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\WebDriver.Support.xml
 C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.dll
