@@ -19,3 +19,4 @@ C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debu
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\nunit.framework.xml
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.dll
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.pdb
+C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.csprojResolveAssemblyReference.cache

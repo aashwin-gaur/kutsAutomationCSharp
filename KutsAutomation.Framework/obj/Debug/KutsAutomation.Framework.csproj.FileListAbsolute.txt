@@ -38,3 +38,4 @@ C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Framework\bin
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Framework\bin\Debug\WebDriver.Support.xml
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.dll
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.pdb
+C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Framework\obj\Debug\KutsAutomation.Framework.csprojResolveAssemblyReference.cache

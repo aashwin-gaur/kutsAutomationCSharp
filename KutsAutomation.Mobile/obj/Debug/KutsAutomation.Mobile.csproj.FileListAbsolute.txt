@@ -20,3 +20,4 @@ C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Mobile\bin\De
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Mobile\bin\Debug\nunit.framework.xml
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Mobile\obj\Debug\KutsAutomation.Mobile.dll
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Mobile\obj\Debug\KutsAutomation.Mobile.pdb
+C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Mobile\obj\Debug\KutsAutomation.Mobile.csprojResolveAssemblyReference.cache
