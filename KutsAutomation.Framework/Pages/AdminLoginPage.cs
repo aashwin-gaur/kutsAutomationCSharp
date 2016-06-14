@@ -16,7 +16,7 @@ namespace KutsAutomation.Framework.Pages
     public class AdminLoginPage
 
     {
-        String url = "";
+        String url = "http://admin-demo.nopcommerce.com/login?ReturnUrl=%2fadmin%2f";
 
         public bool isAt {
             get
@@ -25,7 +25,7 @@ namespace KutsAutomation.Framework.Pages
                 else return false;
             }
         }
-
+   
         [FindsBy(How = How.Id, Using = "Email")]
         public IWebElement email { get; set; }
 
@@ -47,13 +47,14 @@ namespace KutsAutomation.Framework.Pages
             GlobalWebDriver.driver.Navigate().GoToUrl(url);
             return this;
         }
-      public AdminLoginPage(String email,String password)
+      public AdminLoginPage login(String email,String password)
         {
             this.email.Clear();
             this.email.SendKeys(email);
             this.Password.Clear();
             this.Password.SendKeys(password);
             loginbutton.Click();
+            return this;
         }
 
     }

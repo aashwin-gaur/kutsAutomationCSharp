@@ -7,7 +7,8 @@ So that i can edit my site
 Scenario: LoginSuccess 
 	Given I am on the "AdminHome" Page 
 	When I login with my credentials 
-		|correctusername|correctpassword|
+		|username           |password|
+		|admin@yourstore.com|admin   |
 	Then I should be taken to the "Dashboard" Page
 	
 @Login @Critical @admin @LoginFailure 
