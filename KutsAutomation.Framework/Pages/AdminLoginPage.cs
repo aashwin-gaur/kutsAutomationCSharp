@@ -12,6 +12,12 @@ namespace KutsAutomation.Framework.Pages
     {
         private String url = "http://admin-demo.nopcommerce.com/login?ReturnUrl=%2fadmin%2f";
 
+        /// <summary>
+        /// Gets a value indicating whether this instance is at.
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if this instance is at; otherwise, <c>false</c>.
+        /// </value>
         public bool isAt
         {
             get
@@ -21,12 +27,30 @@ namespace KutsAutomation.Framework.Pages
             }
         }
 
+        /// <summary>
+        /// Gets or sets the email.
+        /// </summary>
+        /// <value>
+        /// The email.
+        /// </value>
         [FindsBy(How = How.Id, Using = "Email")]
         public IWebElement email { get; set; }
 
+        /// <summary>
+        /// Gets or sets the password.
+        /// </summary>
+        /// <value>
+        /// The password.
+        /// </value>
         [FindsBy(How = How.Id, Using = "Password")]
         public IWebElement password { get; set; }
 
+        /// <summary>
+        /// Gets or sets the loginbutton.
+        /// </summary>
+        /// <value>
+        /// The loginbutton.
+        /// </value>
         [FindsBy(How = How.XPath, Using = "/html/body/div/div/div/div/div/div[2]/div[1]/div/form/div[3]/input")]
         public IWebElement loginbutton { get; set; }
 
