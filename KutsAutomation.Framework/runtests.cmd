@@ -14,3 +14,5 @@ SpecRun.exe run %profile%.srprofile "/baseFolder:%~dp0\bin\Debug" /log:specrun.l
 :end
 
 @popd
+
+PAUSE

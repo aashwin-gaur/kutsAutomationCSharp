@@ -6,7 +6,11 @@ using System;
 namespace KutsAutomation.Framework.Pages
 {
     /// <summary>
+<<<<<<< HEAD
     /// 
+=======
+    /// Admin Login Page
+>>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
     /// </summary>
     public class AdminLoginPage
     {
@@ -29,6 +33,7 @@ namespace KutsAutomation.Framework.Pages
 
         [FindsBy(How = How.Id, Using = "Email")]
         public IWebElement email { get; set; }
+<<<<<<< HEAD
         
         [FindsBy(How = How.Id, Using = "Password")]
         public IWebElement password { get; set; }
@@ -37,16 +42,30 @@ namespace KutsAutomation.Framework.Pages
         public IWebElement loginbutton { get; set; }
 
 
+=======
+
+        [FindsBy(How = How.Id, Using = "Password")]
+        public IWebElement password { get; set; }
+
+        [FindsBy(How = How.XPath, Using = "/html/body/div/div/div/div/div/div[2]/div[1]/div/form/div[3]/input")]
+        public IWebElement loginbutton { get; set; }
+
+>>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
         /// <summary>
         /// Initializes a new instance of the <see cref="AdminLoginPage"/> class.
         /// </summary>
         public AdminLoginPage()
         {
             PageFactory.InitElements(WebDriver.driver(), this);
-            Console.WriteLine("hi");
         }
+<<<<<<< HEAD
         /// <summary>
         /// Gotoes the page.
+=======
+
+        /// <summary>
+        /// Goto the page.
+>>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
         /// </summary>
         /// <returns></returns>
         public AdminLoginPage gotoPage()
@@ -62,7 +81,11 @@ namespace KutsAutomation.Framework.Pages
         /// </summary>
         /// <param name="email">The email.</param>
         /// <param name="password">The password.</param>
+<<<<<<< HEAD
         /// <returns></returns>
+=======
+        /// <returns>this page</returns>
+>>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
         public AdminLoginPage login(String email, String password)
         {
             if (!isAt)
