@@ -4,5 +4,37 @@
         <name>KutsAutomation.Framework</name>
     </assembly>
     <members>
+        <member name="T:KutsAutomation.Framework.Pages.AdminLoginPage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.isAt">
+            <summary>
+            Gets a value indicating whether this instance is at.
+            </summary>
+            <value>
+              <c>true</c> if this instance is at; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:KutsAutomation.Framework.Pages.AdminLoginPage"/> class.
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.gotoPage">
+            <summary>
+            Gotoes the page.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.login(System.String,System.String)">
+            <summary>
+            Logins the specified email.
+            </summary>
+            <param name="email">The email.</param>
+            <param name="password">The password.</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
