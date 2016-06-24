@@ -1,7 +1,7 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.PhantomJS;
+﻿using System;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Remote;
+using OpenQA.Selenium.PhantomJS;
 
 namespace KutsAutomation.Framework.Driver
 {
@@ -9,15 +9,15 @@ namespace KutsAutomation.Framework.Driver
 
     internal class WebDriver
     {
-        public static IWebDriver driverinstance = new PhantomJSDriver();
+        public static PhantomJSDriver driverinstance = new PhantomJSDriver();
 
         public static IWebDriver driver()
         {
             if (driverinstance.Equals(null))
             {
-                driverinstance = new PhantomJSDriver(); 
+                driverinstance = new PhantomJSDriver();
             }
-            
+            driverinstance.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
             return driverinstance;
         }
     }

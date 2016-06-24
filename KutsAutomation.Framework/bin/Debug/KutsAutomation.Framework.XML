@@ -4,5 +4,70 @@
         <name>KutsAutomation.Framework</name>
     </assembly>
     <members>
+        <member name="T:KutsAutomation.Framework.Pages.AdminLoginPage">
+            <summary>
+            Admin Login Page
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:KutsAutomation.Framework.Pages.AdminLoginPage"/> class.
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.gotoPage">
+            <summary>
+            Goto the page.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.login(System.String,System.String)">
+            <summary>
+            Logins the specified email.
+            </summary>
+            <param name="email">The email.</param>
+            <param name="password">The password.</param>
+            <returns>this page</returns>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.DashboardPage.gotoPage">
+            <summary>
+            Goto the page.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.DashboardPage.isAt">
+            <summary>
+            Gets a value indicating whether this instance is at this page.
+            </summary>
+            <value>
+              <c>true</c> if this instance is at the page; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="F:KutsAutomation.Framework.Pages.Pages.adminLoginPage">
+            <summary>
+            The admin login page
+            </summary>
+        </member>
+        <member name="F:KutsAutomation.Framework.Pages.Pages.dashboardPage">
+            <summary>
+            The dashboard page
+            </summary>
+        </member>
+        <member name="T:KutsAutomation.Framework.Steps.AsASiteAdminSteps">
+            <summary>
+            As a siteadmin steps
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.GivenIAmOnThePage(System.String)">
+            <summary>
+            Givens the i am on the page.
+            </summary>
+            <param name="p0">The p0.</param>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.WhenILoginWithMyCredentials(TechTalk.SpecFlow.Table)">
+            <summary>
+            Whens the i login with my credentials.
+            </summary>
+            <param name="table">The table.</param>
+        </member>
     </members>
 </doc>
