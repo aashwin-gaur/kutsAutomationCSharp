@@ -53,6 +53,14 @@ namespace KutsAutomation.Framework.Pages
         /// </value>
         [FindsBy(How = How.XPath, Using = "/html/body/div/div/div/div/div/div[2]/div[1]/div/form/div[3]/input")]
         public IWebElement loginbutton { get; set; }
+        /// <summary>
+        /// Gets or sets the error MSG.
+        /// </summary>
+        /// <value>
+        /// The error MSG.
+        /// </value>
+        [FindsBy(How = How.XPath, Using = "/html/body/div/div/div/div/div/div[2]/div[1]/div/form/div[2]/div[1]/span/span")]
+        public IWebElement ErrorMsg { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="AdminLoginPage"/> class.
@@ -89,6 +97,7 @@ namespace KutsAutomation.Framework.Pages
             this.password.Clear();
             this.password.SendKeys(password);
             loginbutton.Click();
+            
             return this;
         }
     }

@@ -116,9 +116,12 @@ this.ScenarioSetup(scenarioInfo);
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "wrongusername",
                         "wrongpassword"});
+            table2.AddRow(new string[] {
+                        "salma@yourstore.com",
+                        "admin"});
 #line 17
  testRunner.When("I login with my credentials", ((string)(null)), table2, "When ");
-#line 19
+#line 20
  testRunner.Then("I should be given an error", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -131,25 +134,25 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RememeberMe", new string[] {
                         "Login"});
-#line 23
-this.ScenarioSetup(scenarioInfo);
 #line 24
+this.ScenarioSetup(scenarioInfo);
+#line 25
  testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                         "correctusername",
                         "correctpassword"});
-#line 25
+#line 26
  testRunner.When("I login with my credentials", ((string)(null)), table3, "When ");
-#line 27
- testRunner.And("I click on RememberMe", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 28
- testRunner.Then("I close the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("I click on RememberMe", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 29
- testRunner.When("I Reopen the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Then("I close the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 30
- testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.When("I Reopen the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 31
+ testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 32
  testRunner.Then("The \"correctusername\" should be the value of the email textbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

@@ -56,13 +56,17 @@ namespace KutsAutomation.Framework.Steps
         {
             Assert.IsTrue(Pages.Pages.dashboardPage.isAt);
         }
-        
+        /// <summary>
+        /// Thens the i should be given an error.
+        /// </summary>
         [Then(@"I should be given an error")]
         public void ThenIShouldBeGivenAnError()
         {
-            
+           
         }
-        
+        /// <summary>
+        /// Thens the i close the browser.
+        /// </summary>
         [Then(@"I close the browser")]
         public void ThenICloseTheBrowser()
         {

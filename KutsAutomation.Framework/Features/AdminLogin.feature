@@ -15,7 +15,8 @@ Scenario: LoginSuccess
 Scenario: LoginFailure 
 	Given I am on the "AdminHome" Page 
 	When I login with my credentials 
-		|wrongusername|wrongpassword|
+		|wrongusername      |wrongpassword|
+		|salma@yourstore.com|admin        |
 	Then I should be given an error 
 	
 	

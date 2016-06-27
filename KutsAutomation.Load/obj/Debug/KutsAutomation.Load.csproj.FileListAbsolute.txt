@@ -3,14 +3,6 @@ c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\Kuts
 c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.dll
 c:\users\aashwin\documents\visual studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.pdb
 C:\Users\Aashwin\Documents\Visual Studio 2013\Projects\KutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.csprojResolveAssemblyReference.cache
-C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.dll.config
-C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.dll
-C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.pdb
-C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.dll
-C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.pdb
-C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\nunit.framework.dll
-C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\TechTalk.SpecFlow.dll
-C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\nunit.framework.xml
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.dll.config
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.dll
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.pdb
@@ -20,3 +12,11 @@ C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\bin\Debu
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.dll
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.pdb
 C:\Users\Aashwin\Documents\Git\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.csprojResolveAssemblyReference.cache
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.dll.config
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\KutsAutomation.Load.pdb
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\nunit.framework.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\nunit.framework.xml
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.dll
+C:\Users\test\Documents\GIT\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.pdb

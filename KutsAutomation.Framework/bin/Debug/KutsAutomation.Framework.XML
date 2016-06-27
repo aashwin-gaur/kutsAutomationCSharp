@@ -9,6 +9,46 @@
             Admin Login Page
             </summary>
         </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.isAt">
+            <summary>
+            Gets a value indicating whether this instance is at.
+            </summary>
+            <value>
+              <c>true</c> if this instance is at; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.email">
+            <summary>
+            Gets or sets the email.
+            </summary>
+            <value>
+            The email.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.password">
+            <summary>
+            Gets or sets the password.
+            </summary>
+            <value>
+            The password.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.loginbutton">
+            <summary>
+            Gets or sets the loginbutton.
+            </summary>
+            <value>
+            The loginbutton.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.ErrorMsg">
+            <summary>
+            Gets or sets the error MSG.
+            </summary>
+            <value>
+            The error MSG.
+            </value>
+        </member>
         <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:KutsAutomation.Framework.Pages.AdminLoginPage"/> class.
@@ -28,12 +68,6 @@
             <param name="password">The password.</param>
             <returns>this page</returns>
         </member>
-        <member name="M:KutsAutomation.Framework.Pages.DashboardPage.gotoPage">
-            <summary>
-            Goto the page.
-            </summary>
-            <returns></returns>
-        </member>
         <member name="P:KutsAutomation.Framework.Pages.DashboardPage.isAt">
             <summary>
             Gets a value indicating whether this instance is at this page.
@@ -41,6 +75,12 @@
             <value>
               <c>true</c> if this instance is at the page; otherwise, <c>false</c>.
             </value>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.DashboardPage.gotoPage">
+            <summary>
+            Goto the page.
+            </summary>
+            <returns></returns>
         </member>
         <member name="F:KutsAutomation.Framework.Pages.Pages.adminLoginPage">
             <summary>
@@ -68,6 +108,16 @@
             Whens the i login with my credentials.
             </summary>
             <param name="table">The table.</param>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.ThenIShouldBeGivenAnError">
+            <summary>
+            Thens the i should be given an error.
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.ThenICloseTheBrowser">
+            <summary>
+            Thens the i close the browser.
+            </summary>
         </member>
     </members>
 </doc>
