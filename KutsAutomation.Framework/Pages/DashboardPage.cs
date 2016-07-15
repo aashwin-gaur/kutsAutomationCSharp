@@ -1,4 +1,5 @@
 ﻿using KutsAutomation.Framework.Driver;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using System;
 
@@ -18,7 +19,7 @@ namespace KutsAutomation.Framework.Pages
         {
             get
             {
-                if (WebDriver.driver().Url.ToLower().Equals(url.ToLower())) return true;
+                if (WebDriver.getdriver().Url.ToLower().Equals(url.ToLower())) return true;
 
                 return false;
             }
@@ -26,7 +27,7 @@ namespace KutsAutomation.Framework.Pages
 
         public DashboardPage()
         {
-            PageFactory.InitElements(WebDriver.driver(), this);
+            PageFactory.InitElements(WebDriver.getdriver(), this);
         }
 
         /// <summary>
@@ -35,8 +36,21 @@ namespace KutsAutomation.Framework.Pages
         /// <returns></returns>
         public DashboardPage gotoPage()
         {
-            WebDriver.driver().Navigate().GoToUrl(url);
+            WebDriver.getdriver().Navigate().GoToUrl(url);
             return this;
         }
+
+
+        [FindsBy(How = How.LinkText, Using = "Logout?")]
+        private IWebElement logoutlink { get; set; }
+
+
+
+        public void logout()
+        {
+            logoutlink.Click();
+        }
+
+
     }
 }

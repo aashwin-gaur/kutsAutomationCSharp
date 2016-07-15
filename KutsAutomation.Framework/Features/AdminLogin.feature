@@ -15,17 +15,26 @@ Scenario: LoginSuccess
 Scenario: LoginFailure 
 	Given I am on the "AdminHome" Page 
 	When I login with my credentials 
-		|wrongusername|wrongpassword|
-	Then I should be given an error 
-	
-	
+		| username | password |
+		|hetal@yourstore.com|admin|
+	Then I should be given an error "LoginFail"
+
+@Login @admin @LoginFailure
+Scenario: LoginFailure Wrong Email Format	
+	Given I am on the "AdminHome" Page 
+	When I login with my credentials 
+		| username | password |
+		|hetal@|admin|
+	Then I should be given an error "WrongEmail"
+
 @Login 	
 Scenario: RememeberMe 
 	Given I am on the "AdminHome" Page 
-	When I login with my credentials 
-		|correctusername|correctpassword|     
-	And I click on RememberMe 
-	Then I close the browser 
-	When I Reopen the browser 
+	When I click on RememberMe 
+	And I login with my credentials 
+		| username            | password |
+		| admin@yourstore.com | admin    |
+	Then I should be taken to the "Dashboard" Page
+	And I logout
 	Given I am on the "AdminHome" Page 
-	Then The "correctusername" should be the value of the email textbox
+	Then The "admin@yourstore.com" should be the value of the email textbox
