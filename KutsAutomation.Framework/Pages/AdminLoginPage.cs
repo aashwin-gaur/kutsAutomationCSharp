@@ -2,15 +2,13 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using System;
+using NUnit.Framework;
 
 namespace KutsAutomation.Framework.Pages
 {
+
     /// <summary>
-<<<<<<< HEAD
     /// 
-=======
-    /// Admin Login Page
->>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
     /// </summary>
     public class AdminLoginPage
     {
@@ -26,53 +24,97 @@ namespace KutsAutomation.Framework.Pages
         {
             get
             {
-                if (WebDriver.driver().Url.ToLower().Equals(url.ToLower())) return true;
+                if (WebDriver.getdriver().Url.ToLower().Equals(url.ToLower())) return true;
                 return false;
             }
         }
 
+        /// <summary>
+        /// Gets or sets the email.
+        /// </summary>
+        /// <value>
+        /// The email.
+        /// </value>
+
         [FindsBy(How = How.Id, Using = "Email")]
         public IWebElement email { get; set; }
-<<<<<<< HEAD
         
+        
+        
+        /// <summary>
+        /// Gets or sets the password.
+        /// </summary>
+        /// <value>
+        /// The password.
+        /// </value>
         [FindsBy(How = How.Id, Using = "Password")]
         public IWebElement password { get; set; }
 
-        [FindsBy(How = How.CssSelector, Using = "html body div.master-wrapper-page div.master-wrapper-content div.master-column-wrapper div.center-1 div.page.login-page div.page-body div.customer-blocks div.returning-wrapper.fieldset form div.buttons input.button-1.login-button")]
-        public IWebElement loginbutton { get; set; }
+        /// <summary>
+        /// Gets or sets the rememberme.
+        /// </summary>
+        /// <value>
+        /// The rememberme.
+        /// </value>
+        [FindsBy(How=How.Id, Using = "RememberMe")]
+        public IWebElement rememberme { get; set; }
 
 
-=======
 
-        [FindsBy(How = How.Id, Using = "Password")]
-        public IWebElement password { get; set; }
-
+        /// <summary>
+        /// Gets or sets the loginbutton.
+        /// </summary>
+        /// <value>
+        /// The loginbutton.
+        /// </value>
         [FindsBy(How = How.XPath, Using = "/html/body/div/div/div/div/div/div[2]/div[1]/div/form/div[3]/input")]
         public IWebElement loginbutton { get; set; }
 
->>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
+      
+        /// <summary>
+        /// Gets or sets the verifyemail.
+        /// </summary>
+        /// <value>
+        /// The verifyemail.
+        /// </value>
+        [FindsBy(How = How.XPath, Using = "/html/body/div/div/div/div/div/div[2]/div[1]/div/form/div[2]/div[1]/span/span")]
+        public IWebElement verifyemail { get; set; }
+        
+
+        /// <summary>
+        /// Gets or sets the errormsg.
+        /// </summary>
+        /// <value>
+        /// The errormsg.
+        /// </value>
+        [FindsBy(How = How.XPath,Using = "/html/body/div/div/div/div/div/div[2]/div[1]/div/form/div[2]/div[1]/span/span")]
+            public IWebElement wrongemail { get; set; }
+
+        /// <summary>
+        /// Gets or sets the loginfail.
+        /// </summary>
+        /// <value>
+        /// The loginfail.
+        /// </value>
+        [FindsBy(How = How.XPath, Using = "/html/body/div/div/div/div/div/div[2]/div[1]/div/form/div[2]/div/span")]
+        public IWebElement loginfail { get; set; }
+
+        
         /// <summary>
         /// Initializes a new instance of the <see cref="AdminLoginPage"/> class.
         /// </summary>
         public AdminLoginPage()
         {
-            PageFactory.InitElements(WebDriver.driver(), this);
+            PageFactory.InitElements(WebDriver.getdriver(), this);
         }
-<<<<<<< HEAD
-        /// <summary>
-        /// Gotoes the page.
-=======
 
         /// <summary>
-        /// Goto the page.
->>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
+        /// Gotoes the page.
         /// </summary>
         /// <returns></returns>
         public AdminLoginPage gotoPage()
-        {
-            Console.WriteLine("start url");
-            WebDriver.driver().Navigate().GoToUrl(url);
-            Console.WriteLine("finish url");
+        {            
+            WebDriver.getdriver().Navigate().GoToUrl(url);
             return this;
         }
 
@@ -81,17 +123,17 @@ namespace KutsAutomation.Framework.Pages
         /// </summary>
         /// <param name="email">The email.</param>
         /// <param name="password">The password.</param>
-<<<<<<< HEAD
+
         /// <returns></returns>
-=======
+
         /// <returns>this page</returns>
->>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
         public AdminLoginPage login(String email, String password)
         {
             if (!isAt)
             {
                 gotoPage();
             }
+           
             this.email.Clear();
             this.email.SendKeys(email);
             this.password.Clear();

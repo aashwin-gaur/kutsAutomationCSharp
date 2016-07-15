@@ -114,12 +114,45 @@ this.ScenarioSetup(scenarioInfo);
  testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                        "wrongusername",
-                        "wrongpassword"});
+                        "username",
+                        "password"});
+            table2.AddRow(new string[] {
+                        "hetal@yourstore.com",
+                        "admin"});
 #line 17
  testRunner.When("I login with my credentials", ((string)(null)), table2, "When ");
-#line 19
- testRunner.Then("I should be given an error", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 20
+ testRunner.Then("I should be given an error \"LoginFail\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("LoginFailure Wrong Email Format")]
+        [NUnit.Framework.CategoryAttribute("Login")]
+        [NUnit.Framework.CategoryAttribute("admin")]
+        [NUnit.Framework.CategoryAttribute("LoginFailure")]
+        public virtual void LoginFailureWrongEmailFormat()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("LoginFailure Wrong Email Format", new string[] {
+                        "Login",
+                        "admin",
+                        "LoginFailure"});
+#line 23
+this.ScenarioSetup(scenarioInfo);
+#line 24
+ testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+            TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                        "username",
+                        "password"});
+            table3.AddRow(new string[] {
+                        "hetal@",
+                        "admin"});
+#line 25
+ testRunner.When("I login with my credentials", ((string)(null)), table3, "When ");
+#line 28
+ testRunner.Then("I should be given an error \"WrongEmail\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -131,26 +164,29 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RememeberMe", new string[] {
                         "Login"});
-#line 23
-this.ScenarioSetup(scenarioInfo);
-#line 24
- testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-            TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
-                        "correctusername",
-                        "correctpassword"});
-#line 25
- testRunner.When("I login with my credentials", ((string)(null)), table3, "When ");
-#line 27
- testRunner.And("I click on RememberMe", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 28
- testRunner.Then("I close the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 29
- testRunner.When("I Reopen the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 30
- testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 31
- testRunner.Then("The \"correctusername\" should be the value of the email textbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+this.ScenarioSetup(scenarioInfo);
+#line 32
+ testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 33
+ testRunner.When("I click on RememberMe", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+            TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                        "username",
+                        "password"});
+            table4.AddRow(new string[] {
+                        "admin@yourstore.com",
+                        "admin"});
+#line 34
+ testRunner.And("I login with my credentials", ((string)(null)), table4, "And ");
+#line 37
+ testRunner.Then("I should be taken to the \"Dashboard\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 38
+ testRunner.And("I logout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 39
+ testRunner.Given("I am on the \"AdminHome\" Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 40
+ testRunner.Then("The \"admin@yourstore.com\" should be the value of the email textbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

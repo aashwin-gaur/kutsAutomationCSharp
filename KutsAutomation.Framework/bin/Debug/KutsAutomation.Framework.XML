@@ -6,7 +6,6 @@
     <members>
         <member name="T:KutsAutomation.Framework.Pages.AdminLoginPage">
             <summary>
-<<<<<<< HEAD
             
             </summary>
         </member>
@@ -18,11 +17,62 @@
               <c>true</c> if this instance is at; otherwise, <c>false</c>.
             </value>
         </member>
-=======
-            Admin Login Page
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.email">
+            <summary>
+            Gets or sets the email.
             </summary>
+            <value>
+            The email.
+            </value>
         </member>
->>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.password">
+            <summary>
+            Gets or sets the password.
+            </summary>
+            <value>
+            The password.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.rememberme">
+            <summary>
+            Gets or sets the rememberme.
+            </summary>
+            <value>
+            The rememberme.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.loginbutton">
+            <summary>
+            Gets or sets the loginbutton.
+            </summary>
+            <value>
+            The loginbutton.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.verifyemail">
+            <summary>
+            Gets or sets the verifyemail.
+            </summary>
+            <value>
+            The verifyemail.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.wrongemail">
+            <summary>
+            Gets or sets the errormsg.
+            </summary>
+            <value>
+            The errormsg.
+            </value>
+        </member>
+        <member name="P:KutsAutomation.Framework.Pages.AdminLoginPage.loginfail">
+            <summary>
+            Gets or sets the loginfail.
+            </summary>
+            <value>
+            The loginfail.
+            </value>
+        </member>
         <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:KutsAutomation.Framework.Pages.AdminLoginPage"/> class.
@@ -30,11 +80,7 @@
         </member>
         <member name="M:KutsAutomation.Framework.Pages.AdminLoginPage.gotoPage">
             <summary>
-<<<<<<< HEAD
             Gotoes the page.
-=======
-            Goto the page.
->>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
             </summary>
             <returns></returns>
         </member>
@@ -44,17 +90,8 @@
             </summary>
             <param name="email">The email.</param>
             <param name="password">The password.</param>
-<<<<<<< HEAD
             <returns></returns>
-        </member>
-=======
             <returns>this page</returns>
-        </member>
-        <member name="M:KutsAutomation.Framework.Pages.DashboardPage.gotoPage">
-            <summary>
-            Goto the page.
-            </summary>
-            <returns></returns>
         </member>
         <member name="P:KutsAutomation.Framework.Pages.DashboardPage.isAt">
             <summary>
@@ -63,6 +100,12 @@
             <value>
               <c>true</c> if this instance is at the page; otherwise, <c>false</c>.
             </value>
+        </member>
+        <member name="M:KutsAutomation.Framework.Pages.DashboardPage.gotoPage">
+            <summary>
+            Goto the page.
+            </summary>
+            <returns></returns>
         </member>
         <member name="F:KutsAutomation.Framework.Pages.Pages.adminLoginPage">
             <summary>
@@ -91,6 +134,37 @@
             </summary>
             <param name="table">The table.</param>
         </member>
->>>>>>> 3c1fa333f425fcf068911ca58754a5eaf0fabfc2
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.WhenIClickOnRememberMe">
+            <summary>
+            Whens the i click on remember me.
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.WhenIReopenTheBrowser">
+            <summary>
+            Whens the i reopen the browser.
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.ThenIShouldBeTakenToThePage(System.String)">
+            <summary>
+            Thens the i should be taken to the page.
+            </summary>
+            <param name="p0">The p0.</param>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.ThenIShouldBeGivenAnError(System.String)">
+            <summary>
+            Thens the i should be given an error.
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.ThenICloseTheBrowser">
+            <summary>
+            Thens the i close the browser.
+            </summary>
+        </member>
+        <member name="M:KutsAutomation.Framework.Steps.AsASiteAdminSteps.ThenTheShouldBeTheValueOfTheEmailTextbox(System.String)">
+            <summary>
+            Thens the should be the value of the email textbox.
+            </summary>
+            <param name="email">The expected emailID</param>
+        </member>
     </members>
 </doc>

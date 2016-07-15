@@ -28,4 +28,3 @@ C:\Users\Saurabh\Documents\Visual Studio 2015\Projects\kutsAutomationCSharp\Kuts
 C:\Users\Saurabh\Documents\Visual Studio 2015\Projects\kutsAutomationCSharp\KutsAutomation.Load\bin\Debug\nunit.framework.xml
 C:\Users\Saurabh\Documents\Visual Studio 2015\Projects\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.dll
 C:\Users\Saurabh\Documents\Visual Studio 2015\Projects\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.pdb
-C:\Users\Saurabh\Documents\Visual Studio 2015\Projects\kutsAutomationCSharp\KutsAutomation.Load\obj\Debug\KutsAutomation.Load.csprojResolveAssemblyReference.cache
